@@ -52,4 +52,4 @@ console.log(Product.fullName);
 console.log(Product["offerPercentage"]);
 console.log (Product.isDeal);
 Product.isDeal = false;
-console.log (Product.isDeal);// I'm updated the value just for practice here :.
+console.log (Product.isDeal);// I'm updated the value just for practice here :
