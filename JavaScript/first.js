@@ -53,3 +53,20 @@ console.log(Product["offerPercentage"]);
 console.log (Product.isDeal);
 Product.isDeal = false;
 console.log (Product.isDeal);// I'm updated the value just for practice here :
+
+// ................................//
+//......Practice Question Q.2......//
+const Profile = {
+    fullName: "Shradha Khapra",
+    posts: 195,
+    followers: 569,
+    isFollow: true,
+    following: 4,
+    username: "shradhakhapra",
+    isEnterprenuer: true,
+    bio: "Apna College | Ex-Microsoft, DRDO To educate someone is the highest privielage.",
+}
+console.log(Profile);
+console.log(Profile.posts);
+console.log(Profile.following);
+console.log(typeof Profile.followers); // This is the right way fo finding the type of here :
