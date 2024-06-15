@@ -16,3 +16,5 @@ isFollow = true; // In this we store only two types of value true or false , onl
 console.log (isFollow);
 isFollow2 = false; // We store only two types of Values here.
 console.log (isFollow2);
+Console = 25; // Here console is a reserved keyword :
+console.log (Console);
