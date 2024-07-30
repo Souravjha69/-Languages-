@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Text1{
+    background-color: beige;
+    color: rgb(172, 68, 68);
+}
+main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+   align-items: center;
+}
+.image{
+    background-image: url(Tron.jpg);
+    height: 281px;
+    width: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.image2{
+    height: 212px;
+    width: 500px;
+    /* background-color: darkcyan; */
+    background-image: url(Tanjiro.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
