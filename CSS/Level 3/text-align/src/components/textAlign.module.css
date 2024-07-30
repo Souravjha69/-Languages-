@@ -1,0 +1,32 @@
+#box{
+    /* height: 500px;
+    width: 500px; */
+    background-color: rgb(121, 138, 138);
+    text-align:center;
+    display: inline;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.link:hover{
+    background-color: aquamarine;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    font-size: 5vh;
+}
+.text{
+  text-transform: uppercase;
+}
+.paras{
+    display: flex;
+}
+.paraOne{
+    line-height: 6px;
+    width: 180px;
+}
+.paraTwo{
+    line-height: 20px;
+    width: 180px;
+}
