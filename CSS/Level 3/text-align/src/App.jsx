@@ -1,11 +1,14 @@
-import PracticeSet from "./components/PracticeSet";
-import TextAlign from "./components/textAlign";
+// import PracticeSet from "./components/PracticeSet";
+// import TextAlign from "./components/textAlign";
+
+import Boxmodel from "./components/BoxModel";
 
 function App () {
   return (
     <div>
-      <TextAlign/>
-      <PracticeSet/>
+      {/* <TextAlign/>
+      <PracticeSet/> */}
+      <Boxmodel/>
     </div>
   )
 }

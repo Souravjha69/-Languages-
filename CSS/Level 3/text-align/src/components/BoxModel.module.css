@@ -1,0 +1,8 @@
+.main h2{
+    background-color: blueviolet;
+}
+.pad{
+    height: 50px;
+    width: 50px;
+    padding: 2px;
+}
