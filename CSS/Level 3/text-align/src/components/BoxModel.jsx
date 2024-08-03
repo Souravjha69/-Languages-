@@ -6,6 +6,7 @@ function Boxmodel () {
             <h2>Padding Property</h2>
             <div id={classes.first}className={classes.pad}>Padding Checker</div>
             <div id={classes.second} className={classes.pad}>Padding Checker</div>
+            <button className={classes.btn}>Click me</button>
         </div>
     );
 }
