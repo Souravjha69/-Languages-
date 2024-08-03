@@ -2,6 +2,7 @@
 // import TextAlign from "./components/textAlign";
 
 import Boxmodel from "./components/BoxModel";
+import Practiceset from "./components/Practiceset2";
 
 function App () {
   return (
@@ -9,6 +10,7 @@ function App () {
       {/* <TextAlign/>
       <PracticeSet/> */}
       <Boxmodel/>
+      <Practiceset/>
     </div>
   )
 }
