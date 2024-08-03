@@ -1,0 +1,20 @@
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: olivedrab;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    background-color: rgb(124, 163, 163);
+    padding: 10px;
+}
+#box1{
+    /* It means it will be gone from the */
+    /* display: none;  */
+
+    /* It means it will be invisible but it still's in the page it containes space and evrything */
+    /* display: visible; */
+}

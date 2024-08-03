@@ -1,7 +1,9 @@
+import DisplayProperty from "./components/DisplayProperty";
+
 function App () {
   return (
     <div>
-      <h1>This is Main App Class</h1>
+      <DisplayProperty/>
     </div>
   );
 }
