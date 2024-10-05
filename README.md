@@ -33,7 +33,7 @@ Feel free to check out the code and suggest improvements via pull requests or op
 
 For any questions, you can reach me at:
 
-- **Email**: souravjha@example.com
+- **Email**: souravkumarjha301@gmail.com
 - **GitHub**: [Sourav Kumar Jha](https://github.com/Souravjha69)
 
 Happy coding! 🎉
