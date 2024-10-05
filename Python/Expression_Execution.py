@@ -10,3 +10,9 @@ print("The value of E : -",E)
 E,F=2,-5
 G=E%F
 print("The value of G : -",G)
+
+#Single line Comment is here: -
+"""
+This is Multi Line Comment
+is here
+"""
