@@ -59,3 +59,5 @@ sal = float(input("Salary: "))
 tax = sal * (0.2 if sal > 50000 else 0.1)
 print("Tax:", tax)
 
+
+
