@@ -6,4 +6,4 @@ print(str[5])
 
 #Slicing of the String
 sli=str[0:6]
-print(sli) #Here Starting index included but Ending index don't.
+print(sli) #Here Starting index included but Ending index don't. 
