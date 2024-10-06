@@ -17,3 +17,14 @@ elif light == "green":
     print("You can go the color is green")
 else:
     print("Light is broken")
+
+#Grades of students Problem
+marks=int(input("Enter the marks of the student : -"))
+if marks>=90:
+    print("You scored A grade")
+elif marks>80 and marks<90:
+    print("You scored B grade")
+elif marks>70 and marks<80:
+    print("You scored C grade")
+else:
+    print("You scored D grade FAIL")
