@@ -3,6 +3,8 @@
 Welcome to my **Coding Practice** repository! 🚀
 
 This repository contains my hands-on practice and exercises across various programming languages. Each language has its own directory, containing different coding challenges, projects, or concepts I've been working on.
+![Coding](https://github.com/user-attachments/assets/fabcdbf6-6feb-466a-a063-385fea36ef6e)
+
 
 ## 🛠 Languages Covered
 
