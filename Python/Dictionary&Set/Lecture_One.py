@@ -18,3 +18,15 @@ print(info["name"])
 #If we have to add new key in dictionary : -
 info["Dream"]="Japan"
 print(info)
+
+#Student Example 
+student={
+    "name":"Sourav kr. jha",
+    "subjects":["Python", "Data ToolKit", "Data Analytics"],
+    "Marks":{
+        "Python":24,
+        "Data Toolkit":55,
+        "Machine Learning":88
+}
+}
+print(student["Marks"]["Machine Learning"]) #Accessing the separate key value pair in the dictionary.
