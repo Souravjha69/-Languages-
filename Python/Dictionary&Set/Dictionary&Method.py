@@ -21,8 +21,8 @@ newInfo={
 }
 
 print(newInfo) 
-print(len(newInfo))
-print(len(newInfo["Numbers"]))
-print(list(newInfo.values()))
+print(len(newInfo)) #Length of the dictionary
+print(len(newInfo["Numbers"])) #Length of NUmbers in the dictionary
+print(list(newInfo.values())) 
 pairs= list(newInfo.items)
 print(newInfo[0])
