@@ -21,4 +21,3 @@ num5=int(input("Enter your num5:- "))
 num6=int(input("Enter your num6:- "))
 print("If both are equal then true otherwise false:- ", num5==num6)
 print("If both are equal then true otherwise false:- ", num5>=num6)
-dfg
