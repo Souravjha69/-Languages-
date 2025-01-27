@@ -6,7 +6,7 @@ elif age < 18:
 else:
     print(age)
 
-
+#Traffice Problem 
 # Traffic Light Problem 
 light=input("Color of light is: -")
 if light == "red":
