@@ -94,3 +94,4 @@ change= input("Enter your Integer Number: -")
 change2=int(change)
 print(type(change2)) #Here I changed the input string to integer type.
 
+dd
