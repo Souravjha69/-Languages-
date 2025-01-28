@@ -18,3 +18,5 @@ print(final_name[0:])#This also indficates the full length of the string
 #Backward Counting in negative order in slicing
 str3="Apple"
 print(str3[-4:-1]) #This will print {ppl}
+
+#Starting the String functions
