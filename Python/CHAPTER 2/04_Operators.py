@@ -31,8 +31,13 @@ print("This is the example of logical operator:", lining) #Here it checks if eit
 lining2 = True and False
 print("This is the example of logical operator:", lining2) #Here it checks if both values are True then it returns True otherwise False
 #Truth Table for Logical Operators:
+#Truth table of {OR}
 print("True or True:", True or True)  # True
 print("True or False:", True or False)  # True
 print("False or True:", False or True)  # True  
 print("False or False:", False or False)  # False
+#Truth table of {AND}
 print("True and True:", True and True)  # True
+print("True and False:", True and False)  # False
+print("False and True:", False and True)  # False
+print("False and False:", False and False)  # False
