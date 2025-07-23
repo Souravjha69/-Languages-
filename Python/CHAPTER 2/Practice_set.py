@@ -27,6 +27,11 @@ if a > b:
 else:
     print("A is not greater than B, A is less than B") 
 
+compareA = int(input("Enter the value of this: -"))
+compareB = int(input("Enter the value of this: -"))
+
+print("Here we are comparingt the value which is compareA is greater than compareB or not: -", compareA > compareB)
+
 
 #Q5. Write a python program to find the average of two numbers entered by the user. 
 NumberOne = int(input("Enter the first number:  "))
