@@ -8,5 +8,3 @@ print("Here I'm printing my short name by slicing: ",ShortName)
 print("Here I'm printing my short name by negative slicing: ",NegativeShortName)
 print("Here I'm just printing the slicing and testing different types of slicing:", FullName[:5],"Second Test: ", FullName[1:], "Third Test: ", FullName[3:6])
 print("Here I'm printing the jumping of slicing: ", FullName[1:8:5])
-# 2. Length of String
-print("Length of my full name is: ",len(FullName))
