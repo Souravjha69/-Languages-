@@ -1,5 +1,5 @@
 #Input
-a = int(input("Enter the value of a is:-"))
+a = int(input("Enter the value of a is:-")) # Here it is showing whatever the input is coming make that integer value.
 b = int(input("Enter the value of b is:-"))
 print("The value of a + b is like this: -", (a+b))
 
