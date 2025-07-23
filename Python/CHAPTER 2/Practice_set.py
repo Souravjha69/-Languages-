@@ -33,3 +33,9 @@ NumberOne = int(input("Enter the first number:  "))
 NumberTwo = int(input("Enter the second number:"))
 AverageNumber = (NumberOne + NumberTwo)/2
 print("Here this is the average number by taking the input from the user: ", int(AverageNumber)) #Here I'm putted int() function otherwise it will show the float value aalways default.
+
+#Q6. Write a python program to calculate the square of a number entered by the user.
+SquareNumberOne = int(input("Enter the numberone to find the square:"))
+SquareNumberTwo = int(input("Enter the numbertwo to find the square:"))
+SquareOne = SquareNumberOne * SquareNumberOne
+print("Here this is the square value of both the numbers: ", SquareOne)
