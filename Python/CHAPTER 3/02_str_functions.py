@@ -28,3 +28,11 @@ String3 = "   Sourav kumar jha   "
 Strip = String3.strip()
 print ("Here is the original String3: - ",(String3)) #Original String3
 print ("Remove the white space in String2 variable: -", (Strip))
+String4 = "Swati jha is my sister"
+find = String4.find("jha")
+findr = String4.rfind("s",)
+print ("Here I'm finding the word in this string: ", (find))
+print ("Here I'm finidng the last occurence here: ",  (findr)) # Here it finds the last occurence of this word in the whole string and returns the index of that word.
+String5 = "Swatis jha is really a good good girl"
+Counting = String5.count("good")
+print ("Here I'm finding how many time good word appears in the string: ", (Counting)) # So here it clarly counts word good how many times comes in this string. 
