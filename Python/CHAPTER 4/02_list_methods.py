@@ -34,4 +34,5 @@ print(delete.pop(2)) #Here it will print the deleted element at index 2
 #Here I'm showing the example of removing an element from the list
 remove = [1,67,98,56,98,-0]
 remove.remove(remove[4]) # Here it will remove specific element in the list and operating as their index
+remove.remove(-0) #Here It will directly remove the element here -0.
 print("Removed element 98 from the list:", remove)
