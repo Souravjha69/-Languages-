@@ -16,4 +16,9 @@ Rename table programmers to users; -- If i have to rename the table name the use
 ALTER TABLE users DROP COLUMN created_by; -- If i want to delete any column then use this command here 
 ALTER TABLE users ADD COLUMN created_at timestamp default current_timestamp; -- If i have to add any column in the table then use this command here
 Alter table users add column is_active boolean default true; -- If i have to add any column in the table then use this command here
+Alter table users rename column NAME to Name; -- Here I modified the column name in the table by using this command here
+Alter table users modify column name varchar(150); -- Here I'm modifying the column constraints varchar 200 to 150
+ALter table users modify column gender enum('Male', 'Female', 'Others') not null after name; -- Here I'm arranging the columns position by using this command 
+Alter table users modify column Name varchar(150) first; -- Here we can change the position any column to first position with this code directly
+Alter table users modify column ID INT  auto_increment first; -- Here we can change the position any column to first position with this code directly
 Select * from users;
