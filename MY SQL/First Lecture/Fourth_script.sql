@@ -1,0 +1,15 @@
+USE  starter_sql;
+
+-- Quering the data from the users:-
+SELECT Name, Email from users; -- Here I'm checking specific data from the users only name and email ID
+SELECT * FROM users WHERE gender = 'Female'; -- Here I'm putting the condition where gender is only females I'm checking in the users data. 
+
+-- Here I'm watching the data with different conditions : -
+SELECT * FROM users WHERE gender = 'Male'; -- Here I'm putting the condition where gender is only males I'm checking in the users data.
+SELECT * FROM users WHERE gender <> 'Male'; -- Here I'm checking the female data in the users where geneder is not equal to male.
+SELECT * FROM users WHERE gender != 'Male'; -- Here I'm checking the female data in the users where geneder is not equal to male.
+SELECT * FROM users where date_of_birth < '1999-03-10'; -- So in this query I'm checking the data whose less only this date month year.
+SELECT * FROM users where ID >= 10; -- So in this query I'm checking where Id is greater also equal than 10.
+SELECT * FROM users where date_of_birth is NULL;  -- Here I'm checking the data where data is equal null only in the users table
+SELECT * FROM users where date_of_birth is NOT NULL;  -- Here I'm checking the data where data is not null only in the users table
+SELECT * FROM users where date_of_birth between '1995-01-01' AND '2000-12-30'; -- Here the data is showing only where it lies between these year only
