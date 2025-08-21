@@ -13,3 +13,7 @@ SELECT * FROM users where ID >= 10; -- So in this query I'm checking where Id is
 SELECT * FROM users where date_of_birth is NULL;  -- Here I'm checking the data where data is equal null only in the users table
 SELECT * FROM users where date_of_birth is NOT NULL;  -- Here I'm checking the data where data is not null only in the users table
 SELECT * FROM users where date_of_birth between '1995-01-01' AND '2000-12-30'; -- Here the data is showing only where it lies between these year only
+SELECT * from users where salary between '20000' and '80000'; -- Here the data is showing only where it lies between these salary only.
+SELECT * FROM users where gender in ('Male', 'Female'); -- Here in this data i am finding where the value is male and female that value returns.
+SELECT * From users where gender = "Male" and salary > "70000"; -- Here in this code it returns male data whose salary is above 70000 by and method.
+SELECT * From users where gender = "Male" or salary > '80000' ; -- Here in this data it shows that if gender is equal to male or salary is greater than 80000 for both male and female. 
