@@ -13,3 +13,11 @@ Insert into users values
 Insert into users (Name, gender, Email, date_of_birth) values
 ('Poorvi patil', 'Female', 'poorvi8@gmail.com', '1995-12-12'),
 ('Biplab', 'Male', 'biplab56@gmail.com', '1999-6-18');
+
+
+-- So this is the example so that i'll take multiple data in to one single query.
+Insert into users (Name, gender, Email, date_of_birth) values
+('Sourav 1', 'Male',  'sourav1@gmail.com', '1999-1-12'),
+('Sourav 1', 'Male',  'sourav2@gmail.com', '1999-1-12'),
+('Sourav 1', 'Male',  'sourav3@gmail.com', '1999-1-12'),
+('Sourav 1', 'Male',  'sourav4@gmail.com', '1999-1-12');
