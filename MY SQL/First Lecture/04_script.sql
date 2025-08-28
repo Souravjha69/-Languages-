@@ -21,3 +21,4 @@ SELECT * From users where gender = "Male" and salary > "70000"; -- Here in this 
 SELECT * From users where gender = "Male" or salary > '80000'; -- Here in this satisfy atleast one data is also okay that will be shown like females also
 SELECT * FROM users where gender = 'Male' or salary > '75000' ORDER BY date_of_birth ASC; -- In this data atleast satisy one condition but data shown in ascending order by Date of birth means big to small.
 SELECT * FROM users where gender = 'Male' or salary > '78000' ORDER BY date_of_birth DESC LIMIT 5; -- In this data atleast satisy one condition but data shown in ascending order by Date of birth means small to big and shown in the limit 5 only means only 5 data will shown here.
+SELECT ID, Name, Email from users where Name = 'Pooja Reddy'; -- If specicially i want to search id and other info than this command.

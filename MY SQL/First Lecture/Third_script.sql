@@ -42,6 +42,9 @@ INSERT into users (name, Email, Gender, date_of_birth, created_by) values
 INSERT into users (name, Email, Gender, date_of_birth, created_by, Phone_Number) values
 ('Kapil Maurya', 'kapilmaurya789@gmail.com', 'Others', '2005-12-25', default, '+91 8298345566');
 
+INSERT into users (name, Email, Gender, date_of_birth, created_by, Phone_Number) values
+('Sukesh sharma', 'sukeshsharma89@gmail.com', 'Others', '2005-08-25', default, '+91 829845466');
+
 -- Here in this code if i want to update any column data like here I'm updating salary section in this data so
 UPDATE users SET Salary = 75000.00 WHERE id = 1;
 UPDATE users SET Salary = 65000.00 WHERE id = 2;
@@ -61,12 +64,29 @@ UPDATE users SET Salary = 82000.00 WHERE id = 15;
 UPDATE users SET Salary = 75000.00 WHERE id = 16;
 UPDATE users SET Salary = 65000.00 WHERE id = 17;
 UPDATE users SET Salary = 85000.00 WHERE id = 18;
+UPDATE users SET Salary = 52000.00 WHERE id = 19;
 UPDATE users SET Phone_Number = '+91 8825142893' WHERE id = 1;
-
 -- This code will help where i want to delete salary data in the table not column only data.
 UPDATE users 
 SET Salary = NULL 
 WHERE id IN (1, 2, 3);
+
+-- UPDATING only in single data:-
+-- Note: - Dont ru this command without where because it specifies which row you want to modify otherwise it will affect every row in salary column
+UPDATE users SET Salary = 82000.00, Email = 'sourav.jha@gmail.com' where id = 1;  
+UPDATE users SET Name = 'Rahul sharma', Email = 'rahulsharma78@gmail.com' where id = 15;
+UPDATE users SET Name = "Meera Joshi" where Email = 'meera.iyer@example.com';
+UPDATE users SET Email = 'poojakhan@gmail.com' WHERE Name = 'Pooja Reddy';
+
+-- For safe update purpose only one time operating by name:-
+SET SQL_SAFE_UPDATES = 0;
+
+UPDATE users 
+SET Email = 'poojakhan@gmail.com' 
+WHERE Name = 'Pooja Reddy';
+
+SET SQL_SAFE_UPDATES = 1;
+-- ------------------------------------------
 
 INSERT into users (ID, Name, Email, Gender, created_by)values
 ('17', 'Amruta Pawar', 'amruta78@gmail.com', 'Female', DEFAULT);
