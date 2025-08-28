@@ -14,7 +14,8 @@ created_by timestamp default current_timestamp
 
 -- This code helps when if you want to add column in  the table after creation of previous table or in modification of one column in the existing table.
 ALTER TABLE users 
-ADD COLUMN Salary VARCHAR(255);
+ADD COLUMN Salary VARCHAR(255),
+ADD COLUMN Phone_Number varchar(15);
 
 -- This code defines to watch my code
 SELECT * from users;
@@ -38,6 +39,9 @@ INSERT into users (name, Email, Gender, date_of_birth, created_by) values
 ('Rahul Choudhary', 'rahul.choudhary@example.com', 'Male', '1999-03-28', DEFAULT),
 ('Shivani Mishra', 'shivani.mishra@example.com', 'Female', '1998-07-16', DEFAULT);
 
+INSERT into users (name, Email, Gender, date_of_birth, created_by, Phone_Number) values
+('Kapil Maurya', 'kapilmaurya789@gmail.com', 'Others', '2005-12-25', default, '+91 8298345566');
+
 -- Here in this code if i want to update any column data like here I'm updating salary section in this data so
 UPDATE users SET Salary = 75000.00 WHERE id = 1;
 UPDATE users SET Salary = 65000.00 WHERE id = 2;
@@ -56,6 +60,8 @@ UPDATE users SET Salary = 65000.00 WHERE id = 14;
 UPDATE users SET Salary = 82000.00 WHERE id = 15;
 UPDATE users SET Salary = 75000.00 WHERE id = 16;
 UPDATE users SET Salary = 65000.00 WHERE id = 17;
+UPDATE users SET Salary = 85000.00 WHERE id = 18;
+UPDATE users SET Phone_Number = '+91 8825142893' WHERE id = 1;
 
 -- This code will help where i want to delete salary data in the table not column only data.
 UPDATE users 
