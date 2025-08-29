@@ -78,6 +78,11 @@ UPDATE users SET Name = 'Rahul sharma', Email = 'rahulsharma78@gmail.com' where 
 UPDATE users SET Name = "Meera Joshi" where Email = 'meera.iyer@example.com';
 UPDATE users SET Email = 'poojakhan@gmail.com' WHERE Name = 'Pooja Reddy';
 
+-- For all users set salary same basically affect sin all rows salary section same.
+SET SQL_SAFE_UPDATES = 0;
+UPDATE users SET Salary = 90000.00;
+SET SQL_SAFE_UPDATES = 1;
+
 -- For safe update purpose only one time operating by name:-
 SET SQL_SAFE_UPDATES = 0;
 
