@@ -13,3 +13,14 @@ UPDATE users SET Salary = Salary + 10000 WHERE Salary < 60000;
 SET SQL_SAFE_UPDATES = 1;
 -- -----------------------
 SELECT * FROM users where Salary > 60000.00;
+
+SELECT ID, Name, Salary from users;
+
+-- ---------------------------
+-- Here I'm deleting the the user's data whose salary is less than 70000.
+SET SQL_SAFE_UPDATES = 0;
+DELETE FROM users where Salary < 70000.00;
+
+-- Here I'm deleting the row data whose salary is NUll make sure you write is NUll not = NULL
+Select * from users where Salary is Null;
+DELETE FROM users where Salary is NULL;
