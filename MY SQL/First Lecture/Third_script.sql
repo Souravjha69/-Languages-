@@ -63,8 +63,7 @@ UPDATE users SET Salary = 65000.00 WHERE id = 14;
 UPDATE users SET Salary = 82000.00 WHERE id = 15;
 UPDATE users SET Salary = 75000.00 WHERE id = 16;
 UPDATE users SET Salary = 65000.00 WHERE id = 17;
-UPDATE users SET Salary = 85000.00 WHERE id = 18;
-UPDATE users SET Salary = 52000.00 WHERE id = 19;
+
 UPDATE users SET Phone_Number = '+91 8825142893' WHERE id = 1;
 -- This code will help where i want to delete salary data in the table not column only data.
 UPDATE users 
@@ -92,6 +91,15 @@ WHERE Name = 'Pooja Reddy';
 
 SET SQL_SAFE_UPDATES = 1;
 -- ------------------------------------------
+
+-- ---------------------------------------------
+-- For Deleting the Users in the row Data: -
+-- Note: - For the deletion command you only delete rows not just columns data make sure also if you want
+-- to delete specific data you have to use Update command here.
+SET SQL_SAFE_UPDATES = 0;
+DELETE FROM users WHERE SALARY = 52000.00; 
+DELETE FROM users where ID = 18;
+DELETE FROM users where Gender = 'Female' and date_of_birth = '1999-01-10'
 
 INSERT into users (ID, Name, Email, Gender, created_by)values
 ('17', 'Amruta Pawar', 'amruta78@gmail.com', 'Female', DEFAULT);
