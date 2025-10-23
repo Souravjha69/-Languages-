@@ -17,6 +17,12 @@ Phone_No varchar(80) NOT NULL,
 Created_by timestamp default current_timestamp
 );
 
+
+-- If i want to add some constaraints after creation then: -
+ALTER TABLE users ADD CONSTRAINT uinique_Email UNIQUE (Email);
+ALTER TABLE users MODIFY COLUMN Name VARCHAR(200) NOT NULL;
+ALTER TABLE users ADD COLUMN Date_of_Birth date; -- I've added a column here after creation odf the table. 
+ALTER TABLE users ADD CONSTRAINT check_dob CHECK(date_of_birth > '2000-12-25'); -- Here if you want to add constraints after creation of the table you have to code like this.
 -- --------------------------------------------
 
 -- Here I'm watching that data the table I've created 
@@ -37,5 +43,11 @@ INSERT into users ( Name, Email, Salary, Gender, Phone_No, Created_by)values
 ('Meera Iyer', 'meera.iyer@example.com', 69000.00, 'Female', '9567812340', DEFAULT),
 ('Karan Malhotra', 'karan.malhotra@example.com', 88000.00, 'Male', '9123987654', DEFAULT);
 
+INSERT INTO users (Name, Email, Salary, Gender, Phone_No, Created_by)values
+('Suhani Sharma', 'suhani@example.com', '25000.00', 'Female', '9845374832', DEFAULT);
 
-UPDATE users set Name = 'Sarika Gosh' where id = '8'; 
+
+UPDATE users set Name = 'Sarika Gosh' where id = '8';
+UPDATE users set Date_of_birth = '2005-02-02' where id = '2';
+ 
+ 
