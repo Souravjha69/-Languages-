@@ -41,3 +41,6 @@ print("True and True:", True and True)  # True
 print("True and False:", True and False)  # False
 print("False and True:", False and True)  # False
 print("False and False:", False and False)  # False
+
+print(not(True)) #It returns False because it negates the value of True
+print(not(False)) #It returns True because it negates the value of False Basically it changed the true to false , flase to true.
