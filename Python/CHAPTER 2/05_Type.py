@@ -7,3 +7,5 @@ c = "67.7"
 print("Type of c is:- ", type(c))
 e= float(c) #Here we are converting c string value to fload and placing that value in e 
 print("Type of e is: -", type(e)) 
+f= str(e)
+print ("Type of f is: -", type(f)) # Here I've converted again float value to string.

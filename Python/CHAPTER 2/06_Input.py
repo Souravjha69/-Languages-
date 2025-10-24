@@ -8,3 +8,9 @@ d = input("Enter the value of d is:-")
 print("The value of c is like:- ", c)
 print("The value of d is like:- ", d)
 # print("Type of c is like:- ", type(c)) This is defalt value of type is string. 
+
+
+Ex= input("Enter Ex: ")
+Ex2= input("Enter Ex2: ")
+Ex3= input("Enter Ex3: ")
+print("Concatinate the both strings:-", Ex  + Ex2 + Ex3)
